@@ -1,0 +1,8 @@
+# dsh-sidebar-modes bundle patch: one client-face row.
+# The row mounts the package's host half (a no-op) under profiles that include
+# this bundle; clientModules scans the same entry for the dsh.client
+# declaration and serves the browser bundle from
+# /plugins/dsh-sidebar-modes/client.js.
+- insert:
+    - id: dsh-sidebar-modes
+      name: dsh-sidebar-modes

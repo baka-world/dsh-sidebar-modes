@@ -1,0 +1,29 @@
+{
+  "name": "dsh-sidebar-modes",
+  "version": "0.1.0",
+  "description": "侧边栏模式外部插件：紧凑模式 + 右侧边栏 + 收起窄条（对话/Trajectory 竖排），三态持久化，收起/展开动画右锚定无漂移。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  }
+}
