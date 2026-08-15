@@ -25,6 +25,12 @@
 - 双击标题进入开发者模式（标题变蓝），显示两个常驻开关
 - 状态经 `localStorage`（`dsh-ui-layout-plugin-v1`）持久化，冷挂载不重放动画
 
+## 截图
+
+| 展开态（右侧边栏 245px） | 收起态（56px 窄条） |
+|---|---|
+| ![展开态](docs/screenshots/expanded.png) | ![收起态](docs/screenshots/collapsed.png) |
+
 ## 安装（web profile）
 
 1. 克隆到本地：`git clone https://github.com/baka-world/dsh-sidebar-modes`
